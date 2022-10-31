@@ -1,0 +1,255 @@
+* {
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2B5FF;
+    border: 5px solid #A300B3;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+header .name {
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #A300B3;
+    font-size: 5vh;
+}
+
+header .nombre_empresa {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 12vh;
+}
+
+header .logo {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 20rem;
+}
+
+nav {
+    margin: 1rem auto;
+    padding: 0;
+    border: 5px solid #A300B3;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 4em;
+    background-color: #A300B3;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+    height: 30px;
+    justify-content: space-between;
+    display: inline-block;
+}
+
+nav a {
+    padding: 20px;
+    margin: auto;
+    color: #000;
+    text-decoration: none;
+    transition: 0.8s ease all;
+    max-width: 100%;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #DE8FFF;
+    display: flexbox;
+}
+
+.alineacion {
+    max-height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    min-height: 20em;
+    max-width: 25%;
+    border: 5px solid #A300B3;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 1vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.caja h1,
+h2,
+h3 {
+    text-align: center;
+    font-size: 2.6vh;
+}
+
+.caja img {
+    display: flex;
+    max-height: 25vh;
+    max-width: 25vh;
+    margin: 1rem auto;
+    border: 5px solid #A300B3;
+}
+
+.caja p {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 2vh;
+}
+
+.caja a {
+    display: inline-block;
+    text-decoration: none;
+    font-style: italic;
+    color: #EB2DFC;
+}
+
+#boton {
+    display: flex;
+    width: 60%;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2em;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    overflow: hidden;
+    position: relative;
+    border: 5px solid #A300B3;
+    border-radius: 30px;
+}
+
+#boton span {
+    position: relative;
+    transition: 0.3s ease all;
+}
+
+.edit {
+    margin-top: 1.5vh;
+    max-width: 100%;
+}
+
+form input {
+    text-indent: 10px;
+}
+
+.cont {
+    display: block;
+    margin-top: 1.5vh;
+    text-align: left;
+    font-size: 2.4vh;
+}
+
+.caja1 {
+    max-width: 30%;
+    height: auto;
+    margin: 1vh;
+    padding: 2vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notas {
+    max-width: 100%;
+    height: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #EB2DFC;
+    margin: 2vh;
+    font-size: 8px;
+    ;
+}
+
+.notas h1,
+h2,
+h3 {
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.notas p {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 10px;
+    text-indent: 1rem;
+    padding: 0.8vh;
+}
+
+.notas1 {
+    max-width: 100%;
+    height: 40%;
+    padding: 4px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #EB2DFC;
+    margin: 2vh;
+}
+
+.notas1 h1,
+h2,
+h3 {
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.notas1 p {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 10px;
+    text-indent: 1rem;
+    padding: 0.8vh;
+}
+
+hr {
+    width: 100%;
+    margin: 1rem auto;
+    border: 5px solid #A300B3;
+}
+
+.caja a:hover {
+    color: blue;
+}
